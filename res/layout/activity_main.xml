@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center" >
+
+    <LinearLayout
+        android:id="@+id/main_LinearLayout_buttons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/main_button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/fragment1"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/main_button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/fragment2"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/main_button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/fragment3"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <fragment
+        android:id="@+id/main_fragment1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/main_LinearLayout_buttons"
+        class="aze.android.fragmentsaze.Fragment1" />
+
+    <fragment
+        android:id="@+id/main_fragment2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/main_LinearLayout_buttons"
+        class="aze.android.fragmentsaze.Fragment2" />
+
+    <fragment
+        android:id="@+id/main_fragment3"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/main_LinearLayout_buttons"
+        class="aze.android.fragmentsaze.Fragment3" />
+
+</RelativeLayout>

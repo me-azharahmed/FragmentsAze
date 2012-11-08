@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">FragmentsAze</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="fragment1">Fragment1</string>
+    <string name="fragment2">Fragment2</string>
+    <string name="fragment3">Fragment3</string>
+    <string name="goToFragment2">Go to Fragment2</string>
+    <string name="goToFragment3">Go to Fragment3</string>
+    <string name="goToFragment1">Go to Fragment1</string>
+
+</resources>
